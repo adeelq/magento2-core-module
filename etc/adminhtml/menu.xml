@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add
+            id="Adeelq_CoreModule::Reports"
+            title="AdeelQ Resources"
+            module="Adeelq_CoreModule"
+            sortOrder="100"
+            parent="Magento_Reports::report"
+            resource="Adeelq_CoreModule::Reports"
+        />
+    </menu>
+</config>
