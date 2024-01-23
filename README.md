@@ -1,4 +1,4 @@
-Adeelq Core Module
+Base Core Module For Magento 2
  ======
  
 [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](../CoreConfigDataViewer/LICENSE)
