@@ -1,7 +1,7 @@
 Adeelq Core Module
  ======
  
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](../CoreModule/LICENSE)
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](LICENSE)
 
 This module serves as a core module for dependant modules.
 
