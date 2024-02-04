@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Adeelq\CoreModule\Logger\Handler\AdeelqLogHandler">
+        <arguments>
+            <argument name="filesystem" xsi:type="object">Magento\Framework\Filesystem\Driver\File</argument>
+        </arguments>
+    </type>
+    <type name="Adeelq\CoreModule\Logger\Logger">
+        <arguments>
+            <argument name="name" xsi:type="string">adeelq</argument>
+            <argument name="handlers"  xsi:type="array">
+                <item name="adeelq_log_handler" xsi:type="object">Adeelq\CoreModule\Logger\Handler\AdeelqLogHandler</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
